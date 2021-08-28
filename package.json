@@ -5,8 +5,9 @@
     "lint": "next lint",
     "build": "next build",
     "start": "next start",
-    "test": "jest --watch",
-    "test:ci": "jest --ci"
+    "test": "jest",
+    "test:ci": "jest --ci",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.6",
@@ -27,6 +28,7 @@
     "eslint-plugin-testing-library": "4.11.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "27.0.6",
-    "react-test-renderer": "17.0.2"
+    "react-test-renderer": "17.0.2",
+    "husky": "^7.0.0"
   }
 }
